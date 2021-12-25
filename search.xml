@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo搭建博客资料整理</title>
-    <url>/2021/12/25/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>将自己购买的域名与自己的GitHub.io绑定，参考：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vbGlhbmdtaW5nc2hlbi9wLzk1NjE5OTQuaHRtbA==">如何将域名绑定到自己GitHub上<i class="fa fa-external-link-alt"></i></span></p>
-<p>fontawesome的图标大全，GitHub图标、QQ图标等等<br><span class="exturl" data-url="aHR0cDovL3d3dy5mb250YXdlc29tZS5jb20v">图标地址<i class="fa fa-external-link-alt"></i></span>   </p>
-<p><strong>优秀博主</strong>学习hexo搭建网站<br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmp1YW5lcnR1LmNvbS8=">优秀博主<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>next升级参考</strong><br><span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xNjM4MzA4OTQ=">Next 升级<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>next背景设置,换壁纸可参考</strong><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmp1YW5lcnR1LmNvbS9hcmNoaXZlcy9lMzU4YmM0Ny5odG1s">壁纸更换参考文献<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>markdown图片网络上不能显示的问题</strong><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3o5NTI5NTc0MDcvYXJ0aWNsZS9kZXRhaWxzLzExMTY0MjU0OD9zcG09MTAwMS4yMTAxLjMwMDEuNjY2MS4xJnV0bV9tZWRpdW09ZGlzdHJpYnV0ZS5wY19yZWxldmFudF90MC5ub25lLXRhc2stYmxvZy0yfmRlZmF1bHR+Q1RSTElTVH5kZWZhdWx0LTEucGNfcmVsZXZhbnRfcGF5Y29sdW1uJmRlcHRoXzEtdXRtX3NvdXJjZT1kaXN0cmlidXRlLnBjX3JlbGV2YW50X3QwLm5vbmUtdGFzay1ibG9nLTJ+ZGVmYXVsdH5DVFJMSVNUfmRlZmF1bHQtMS5wY19yZWxldmFudF9wYXljb2x1bW4=">markdown图片处理文章<i class="fa fa-external-link-alt"></i></span><br>主要考虑，typora的相对路径，写文本前先把路劲改到source下。<br>个人偏好里面，相对路径改成images下新建一个相同名字的文件。</p>
+    <title>SiC MOSFET学习笔记</title>
+    <url>/2021/12/25/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h2 id="SiC-MOSFET网络笔记"><a href="#SiC-MOSFET网络笔记" class="headerlink" title="SiC MOSFET网络笔记"></a>SiC MOSFET网络笔记</h2><p>其中一个项目：SiC MOSFET    <strong>C2M0040120D</strong><br>基本参数：DSP、全桥LLC、输入750V、输出400V~700V/20A恒功率、<strong>谐振频率在180KHZ到400KHZ</strong>。使用的SIC MOS管是CREE的C2M0040120D  求大神们指点下：第一的问题：该MOS管要求Vgs为-5V到+20V。我使用的是CREE提供的驱动方案就是电源模块+高速光耦+驱动芯片。上辅电后驱动如下1图所示，负压超过-8V了，请问有什么好办法减小些？  </p>
+<h2 id="1000W无线充电驱动技术的学习"><a href="#1000W无线充电驱动技术的学习" class="headerlink" title="1000W无线充电驱动技术的学习"></a>1000W无线充电驱动技术的学习</h2><p>设计要求：<br>基本参数：DSP、全桥逆变、输入Udc=100-200V/10A、谐振频率在70kHZ-100kHZ，系统工作频率在85kHZ。<br>使用的SIC SiC MOS管是LSIC1MO120E0080。</p>
+<h2 id="文献"><a href="#文献" class="headerlink" title="文献"></a>文献</h2><p>​        SiC MOSFET 相较于传统的 Si MOSFET，具有<strong>开关速度快、工作频率高、阻断电压高、导通损耗小、耐高温</strong>等方面的优势，从而提高系统的工作效率和功率密度。随着开关速度的提高，开关过程中的电流变化率（di/dt）和电压变化率（d V/dt）也会逐渐增大，且器件及电路中存在着大量的<strong>寄生参数</strong>，会给系统带来严重的电磁干扰。</p>
+<p>​        另一方面，由于 SiC MOSFET 具有<strong>芯片面积小、短路电流大、发热位置集中等方面</strong>的特点，导致其短路耐受时间和耐受能量均较小，通常 SiC MOSFET 只能承受 2~7us 的短路时间。</p>
+<img data-src="/images/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-20211222182046207-16404198746481.png" alt="MOS并联图" style="zoom:67%;">
+
+<h3 id="米勒效应的影响：-米勒平台的影响"><a href="#米勒效应的影响：-米勒平台的影响" class="headerlink" title="米勒效应的影响： 米勒平台的影响"></a>米勒效应的影响： <span class="exturl" data-url="aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3JlYWQvY3YzNzYwNjAv">米勒平台的影响<i class="fa fa-external-link-alt"></i></span></h3><h3 id="Mos损坏主要原因："><a href="#Mos损坏主要原因：" class="headerlink" title="Mos损坏主要原因："></a><strong><font color="#FF4500">Mos损坏主要原因：</font></strong></h3><p>​        过流———-持续大电流或瞬间超大电流引起的结温过高而烧毁；  </p>
+<p>​        过压———-源漏过压击穿、源栅极过压击穿；  静电———-静电击穿。</p>
+<img data-src="/images/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-20211223172007899-16404198927932.png" alt="MOS波形图" style="zoom:67%;">
+
+<p>​        从前面的分析可以看出，<strong>MOS的开通损耗主要是在t1到t3这两段时间</strong>内：t1到t2这段时间内是<strong>Vds大电压高压，Id下上升的过程</strong>；t2到t3这段时间内是<strong>Id大电流，Vds下降的过程</strong>；       </p>
+<p>​        <strong><font color="#FF4500">米勒平台分析：</font></strong>  </p>
+<p>​        MOSFET的栅极驱动过程，可以简单的理解为<strong>驱动源对MOSFET的输入电容（主要是栅源极电容Cgs）的充放电过程</strong>；当Cgs达到门槛电压之后， MOSFET就会进入开通状态；<strong>当MOSFET开通后，Vds开始下降，Id开始上升，此时MOSFET进入饱和区</strong>；但由于米勒效应，Vgs会持续一段时间<strong>不再上升</strong>，此时Id已经达到最大，而Vds还在继续下降，<strong>直到米勒电容充满电，Vgs又上升到驱动电压的值</strong>，此时MOSFET进入<strong>电阻区</strong>，此时Vds彻底降下来，开通结束。 </p>
+<img data-src="/images/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-20211223172215825-16404199126483.png" alt="MOS等效电路图" style="zoom:67%;">
+
+<p><font color="#FF4500">米勒电容阻止了Vgs的上升，从而也就阻止了Vds的下降，这样就会使损耗的时间加长。</font>（Vgs上升，则导通电阻下降，从而Vds下降）<font color="#FF4500">用示波器测量GS电压，可以看到在电压上升过程中有一个平台或凹坑</font>，这就是米勒平台。</p>
+<p>​        米勒效应在MOS驱动中臭名昭著，他是由MOS管的<strong>米勒电容</strong>引发的米勒效应，在MOS管开通过程中，GS电压上升到某一电压值后GS电压有一段稳定值，过后GS电压又开始上升直至完全导通。为什么会有稳定值这段呢？因为，<strong>在MOS开通前，D极电压大于G极电压</strong>，MOS<strong>寄生电容Cgd储存的电量需要在其导通时注入G极与其中的电荷中和</strong>，因<strong>MOS完全导通后G极电压大于D极电压</strong>。米勒效应会严重增加<font color="#FF4500">MOS的开通损耗</font>。（MOS管不能很快得进入开关状态）所以就出现了所谓的图腾驱动！选择MOS时，<font color="#FF4500">Cgd越小开通损耗就越小</font>。米勒效应不可能完全消失。</p>
+<blockquote>
+<p>注意数据手册中的表示方法 <strong>Ciss</strong>=Cgs+Cgd ;<strong>Coss</strong>=Cds+Cgd ;<strong>Crss</strong>=Cgd </p>
+</blockquote>
+<p>​        Mos主要损耗也对应这几个状态，<strong>开关损耗</strong>（开通过程和关断过程），<strong>导通损耗</strong>，<strong>截止损耗</strong>（漏电流引起的，这个忽略不计），还有雪崩能量损耗。只要把这些损耗控制在mos承受规格之内，mos即会正常工作，超出承受范围，即发生损坏。而<strong>开关损耗往往大于导通状态损耗</strong>（不同mos这个差距可能很大。  </p>
 ]]></content>
       <categories>
-        <category>网页制作</category>
+        <category>电力电子技术</category>
       </categories>
       <tags>
-        <tag>网页制作</tag>
+        <tag>电力电子技术</tag>
       </tags>
   </entry>
   <entry>
@@ -134,35 +149,20 @@
       </tags>
   </entry>
   <entry>
-    <title>SiC MOSFET学习笔记</title>
-    <url>/2021/12/25/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h2 id="SiC-MOSFET网络笔记"><a href="#SiC-MOSFET网络笔记" class="headerlink" title="SiC MOSFET网络笔记"></a>SiC MOSFET网络笔记</h2><p>其中一个项目：SiC MOSFET    <strong>C2M0040120D</strong><br>基本参数：DSP、全桥LLC、输入750V、输出400V~700V/20A恒功率、<strong>谐振频率在180KHZ到400KHZ</strong>。使用的SIC MOS管是CREE的C2M0040120D  求大神们指点下：第一的问题：该MOS管要求Vgs为-5V到+20V。我使用的是CREE提供的驱动方案就是电源模块+高速光耦+驱动芯片。上辅电后驱动如下1图所示，负压超过-8V了，请问有什么好办法减小些？  </p>
-<h2 id="1000W无线充电驱动技术的学习"><a href="#1000W无线充电驱动技术的学习" class="headerlink" title="1000W无线充电驱动技术的学习"></a>1000W无线充电驱动技术的学习</h2><p>设计要求：<br>基本参数：DSP、全桥逆变、输入Udc=100-200V/10A、谐振频率在70kHZ-100kHZ，系统工作频率在85kHZ。<br>使用的SIC SiC MOS管是LSIC1MO120E0080。</p>
-<h2 id="文献"><a href="#文献" class="headerlink" title="文献"></a>文献</h2><p>​        SiC MOSFET 相较于传统的 Si MOSFET，具有<strong>开关速度快、工作频率高、阻断电压高、导通损耗小、耐高温</strong>等方面的优势，从而提高系统的工作效率和功率密度。随着开关速度的提高，开关过程中的电流变化率（di/dt）和电压变化率（d V/dt）也会逐渐增大，且器件及电路中存在着大量的<strong>寄生参数</strong>，会给系统带来严重的电磁干扰。</p>
-<p>​        另一方面，由于 SiC MOSFET 具有<strong>芯片面积小、短路电流大、发热位置集中等方面</strong>的特点，导致其短路耐受时间和耐受能量均较小，通常 SiC MOSFET 只能承受 2~7us 的短路时间。</p>
-<img data-src="/images/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-20211222182046207-16404198746481.png" alt="MOS并联图" style="zoom:67%;">
-
-<h3 id="米勒效应的影响：-米勒平台的影响"><a href="#米勒效应的影响：-米勒平台的影响" class="headerlink" title="米勒效应的影响： 米勒平台的影响"></a>米勒效应的影响： <span class="exturl" data-url="aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3JlYWQvY3YzNzYwNjAv">米勒平台的影响<i class="fa fa-external-link-alt"></i></span></h3><h3 id="Mos损坏主要原因："><a href="#Mos损坏主要原因：" class="headerlink" title="Mos损坏主要原因："></a><strong><font color="#FF4500">Mos损坏主要原因：</font></strong></h3><p>​        过流———-持续大电流或瞬间超大电流引起的结温过高而烧毁；  </p>
-<p>​        过压———-源漏过压击穿、源栅极过压击穿；  静电———-静电击穿。</p>
-<img data-src="/images/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-20211223172007899-16404198927932.png" alt="MOS波形图" style="zoom:67%;">
-
-<p>​        从前面的分析可以看出，<strong>MOS的开通损耗主要是在t1到t3这两段时间</strong>内：t1到t2这段时间内是<strong>Vds大电压高压，Id下上升的过程</strong>；t2到t3这段时间内是<strong>Id大电流，Vds下降的过程</strong>；       </p>
-<p>​        <strong><font color="#FF4500">米勒平台分析：</font></strong>  </p>
-<p>​        MOSFET的栅极驱动过程，可以简单的理解为<strong>驱动源对MOSFET的输入电容（主要是栅源极电容Cgs）的充放电过程</strong>；当Cgs达到门槛电压之后， MOSFET就会进入开通状态；<strong>当MOSFET开通后，Vds开始下降，Id开始上升，此时MOSFET进入饱和区</strong>；但由于米勒效应，Vgs会持续一段时间<strong>不再上升</strong>，此时Id已经达到最大，而Vds还在继续下降，<strong>直到米勒电容充满电，Vgs又上升到驱动电压的值</strong>，此时MOSFET进入<strong>电阻区</strong>，此时Vds彻底降下来，开通结束。 </p>
-<img data-src="/images/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-20211223172215825-16404199126483.png" alt="MOS等效电路图" style="zoom:67%;">
-
-<p><font color="#FF4500">米勒电容阻止了Vgs的上升，从而也就阻止了Vds的下降，这样就会使损耗的时间加长。</font>（Vgs上升，则导通电阻下降，从而Vds下降）<font color="#FF4500">用示波器测量GS电压，可以看到在电压上升过程中有一个平台或凹坑</font>，这就是米勒平台。</p>
-<p>​        米勒效应在MOS驱动中臭名昭著，他是由MOS管的<strong>米勒电容</strong>引发的米勒效应，在MOS管开通过程中，GS电压上升到某一电压值后GS电压有一段稳定值，过后GS电压又开始上升直至完全导通。为什么会有稳定值这段呢？因为，<strong>在MOS开通前，D极电压大于G极电压</strong>，MOS<strong>寄生电容Cgd储存的电量需要在其导通时注入G极与其中的电荷中和</strong>，因<strong>MOS完全导通后G极电压大于D极电压</strong>。米勒效应会严重增加<font color="#FF4500">MOS的开通损耗</font>。（MOS管不能很快得进入开关状态）所以就出现了所谓的图腾驱动！选择MOS时，<font color="#FF4500">Cgd越小开通损耗就越小</font>。米勒效应不可能完全消失。</p>
-<blockquote>
-<p>注意数据手册中的表示方法 <strong>Ciss</strong>=Cgs+Cgd ;<strong>Coss</strong>=Cds+Cgd ;<strong>Crss</strong>=Cgd </p>
-</blockquote>
-<p>​        Mos主要损耗也对应这几个状态，<strong>开关损耗</strong>（开通过程和关断过程），<strong>导通损耗</strong>，<strong>截止损耗</strong>（漏电流引起的，这个忽略不计），还有雪崩能量损耗。只要把这些损耗控制在mos承受规格之内，mos即会正常工作，超出承受范围，即发生损坏。而<strong>开关损耗往往大于导通状态损耗</strong>（不同mos这个差距可能很大。  </p>
+    <title>hexo搭建博客资料整理</title>
+    <url>/2021/12/25/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>将自己购买的域名与自己的GitHub.io绑定，参考：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vbGlhbmdtaW5nc2hlbi9wLzk1NjE5OTQuaHRtbA==">如何将域名绑定到自己GitHub上<i class="fa fa-external-link-alt"></i></span></p>
+<p>fontawesome的图标大全，GitHub图标、QQ图标等等<br><span class="exturl" data-url="aHR0cDovL3d3dy5mb250YXdlc29tZS5jb20v">图标地址<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><strong>优秀博主</strong>学习hexo搭建网站<br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmp1YW5lcnR1LmNvbS8=">优秀博主<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>next升级参考</strong><br><span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xNjM4MzA4OTQ=">Next 升级<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>next背景设置,换壁纸可参考</strong><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmp1YW5lcnR1LmNvbS9hcmNoaXZlcy9lMzU4YmM0Ny5odG1s">壁纸更换参考文献<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>markdown图片网络上不能显示的问题</strong><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3o5NTI5NTc0MDcvYXJ0aWNsZS9kZXRhaWxzLzExMTY0MjU0OD9zcG09MTAwMS4yMTAxLjMwMDEuNjY2MS4xJnV0bV9tZWRpdW09ZGlzdHJpYnV0ZS5wY19yZWxldmFudF90MC5ub25lLXRhc2stYmxvZy0yfmRlZmF1bHR+Q1RSTElTVH5kZWZhdWx0LTEucGNfcmVsZXZhbnRfcGF5Y29sdW1uJmRlcHRoXzEtdXRtX3NvdXJjZT1kaXN0cmlidXRlLnBjX3JlbGV2YW50X3QwLm5vbmUtdGFzay1ibG9nLTJ+ZGVmYXVsdH5DVFJMSVNUfmRlZmF1bHQtMS5wY19yZWxldmFudF9wYXljb2x1bW4=">markdown图片处理文章<i class="fa fa-external-link-alt"></i></span><br>主要考虑，typora的相对路径，写文本前先把路劲改到source下。<br>个人偏好里面，相对路径改成images下新建一个相同名字的文件。</p>
 ]]></content>
       <categories>
-        <category>电力电子技术</category>
+        <category>网页制作</category>
       </categories>
       <tags>
-        <tag>电力电子技术</tag>
+        <tag>网页制作</tag>
       </tags>
   </entry>
 </search>
