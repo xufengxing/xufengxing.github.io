@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo搭建博客资料整理</title>
+    <url>/2021/12/25/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>将自己购买的域名与自己的GitHub.io绑定，参考：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vbGlhbmdtaW5nc2hlbi9wLzk1NjE5OTQuaHRtbA==">如何将域名绑定到自己GitHub上<i class="fa fa-external-link-alt"></i></span></p>
+<p>fontawesome的图标大全，GitHub图标、QQ图标等等<br><span class="exturl" data-url="aHR0cDovL3d3dy5mb250YXdlc29tZS5jb20v">图标地址<i class="fa fa-external-link-alt"></i></span>   </p>
+<p><strong>优秀博主</strong>学习hexo搭建网站<br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmp1YW5lcnR1LmNvbS8=">优秀博主<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>next升级参考</strong><br><span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xNjM4MzA4OTQ=">Next 升级<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>next背景设置,换壁纸可参考</strong><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmp1YW5lcnR1LmNvbS9hcmNoaXZlcy9lMzU4YmM0Ny5odG1s">壁纸更换参考文献<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>markdown图片网络上不能显示的问题</strong><br><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3o5NTI5NTc0MDcvYXJ0aWNsZS9kZXRhaWxzLzExMTY0MjU0OD9zcG09MTAwMS4yMTAxLjMwMDEuNjY2MS4xJnV0bV9tZWRpdW09ZGlzdHJpYnV0ZS5wY19yZWxldmFudF90MC5ub25lLXRhc2stYmxvZy0yfmRlZmF1bHR+Q1RSTElTVH5kZWZhdWx0LTEucGNfcmVsZXZhbnRfcGF5Y29sdW1uJmRlcHRoXzEtdXRtX3NvdXJjZT1kaXN0cmlidXRlLnBjX3JlbGV2YW50X3QwLm5vbmUtdGFzay1ibG9nLTJ+ZGVmYXVsdH5DVFJMSVNUfmRlZmF1bHQtMS5wY19yZWxldmFudF9wYXljb2x1bW4=">markdown图片处理文章<i class="fa fa-external-link-alt"></i></span><br>主要考虑，typora的相对路径，写文本前先把路劲改到source下。<br>个人偏好里面，相对路径改成images下新建一个相同名字的文件。</p>
+]]></content>
+      <categories>
+        <category>网页制作</category>
+      </categories>
+      <tags>
+        <tag>网页制作</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2018级蓝电回忆录</title>
     <url>/2021/12/25/%E8%93%9D%E7%94%B5%E5%9B%9E%E5%BF%86%E5%BD%95/</url>
     <content><![CDATA[<p>今天搬离了蓝电，去了老师研究生的实验室，含情脉脉，总有些不舍。</p>
@@ -117,18 +134,6 @@
       </tags>
   </entry>
   <entry>
-    <title>测试</title>
-    <url>/2021/12/25/text1/</url>
-    <content><![CDATA[<p><img data-src="/images/text1/image-20211223172215825.png" alt="image-20211223172215825"></p>
-]]></content>
-      <categories>
-        <category>电力电子技术</category>
-      </categories>
-      <tags>
-        <tag>电力电子技术&quot;</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SiC MOSFET学习笔记</title>
     <url>/2021/12/25/SiC%20MOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="SiC-MOSFET网络笔记"><a href="#SiC-MOSFET网络笔记" class="headerlink" title="SiC MOSFET网络笔记"></a>SiC MOSFET网络笔记</h2><p>其中一个项目：SiC MOSFET    <strong>C2M0040120D</strong><br>基本参数：DSP、全桥LLC、输入750V、输出400V~700V/20A恒功率、<strong>谐振频率在180KHZ到400KHZ</strong>。使用的SIC MOS管是CREE的C2M0040120D  求大神们指点下：第一的问题：该MOS管要求Vgs为-5V到+20V。我使用的是CREE提供的驱动方案就是电源模块+高速光耦+驱动芯片。上辅电后驱动如下1图所示，负压超过-8V了，请问有什么好办法减小些？  </p>
@@ -158,39 +163,6 @@
       </categories>
       <tags>
         <tag>电力电子技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客小白鼠页面</title>
-    <url>/2021/12/24/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>青学洞见</category>
-        <category>电力电子技术</category>
-        <category>无线充电技术</category>
-        <category>单片机开发</category>
-        <category>DSP原理及运用</category>
-      </categories>
-      <tags>
-        <tag>电力电子技术</tag>
-        <tag>句读分享</tag>
-        <tag>青菜搜罗</tag>
-        <tag>无线充电技术</tag>
-        <tag>单片机开发</tag>
-        <tag>DSP原理及运用</tag>
       </tags>
   </entry>
 </search>
